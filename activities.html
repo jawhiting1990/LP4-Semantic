@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--checked in W3C-->
 
 <head>
   <meta charset="UTF-8">
@@ -9,7 +10,7 @@
 <body>
   <a href="#main">Skip to main content</a>
 
-  <header class="site-header">
+  <header class="site-header"><!--changed to header from div-->
     <p class="site-title">Wisconsin State Parks Explorer</p>
   </header>
 
@@ -22,13 +23,13 @@
     </ul>
   </nav>
 
-  <main id="main">
+  <main id="main"><!--changed to main from div-->
     <h1>Activities to Try</h1>
 
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore
       magna aliqua.</p>
 
-    <section id="popularactivities">
+    <section id="popularactivities"><!--added section for Popular Activities-->
       <h2>Popular Activities</h2>
       <ul>
         <li>Hiking</li>
@@ -40,19 +41,21 @@
     <img src="images/hiking-trail.png" alt="A hiking trail winding through a green forest with scattered trees"
       width="400">
 
-    <h2>Plan Your Visit</h2>
-    <ol>
-      <li>Check the park's website for hours and admission requirements</li>
-      <li>Purchase a vehicle admission sticker in advance if possible</li>
-      <li>Pack water, sunscreen, and bug spray</li>
-      <li>Check the weather forecast the night before</li>
-      <li>Bring a paper map as a backup &mdash; cell service is spotty in many parks</li>
-    </ol>
+    <section id="planvisit"><!--added section for Plan Your Visit-->
+      <h2>Plan Your Visit</h2>
+      <ol>
+        <li>Check the park's website for hours and admission requirements</li>
+        <li>Purchase a vehicle admission sticker in advance if possible</li>
+        <li>Pack water, sunscreen, and bug spray</li>
+        <li>Check the weather forecast the night before</li>
+        <li>Bring a paper map as a backup &mdash; cell service is spotty in many parks</li>
+      </ol>
+    </section>
 
     <p>See our <a href="parks.html">Parks</a> comparison table if you haven't picked a destination yet.</p>
   </main>
 
-  <footer class="site-footer">
+  <footer class="site-footer"><!--changed to footer from div-->
     <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
   </footer>
 </body>
